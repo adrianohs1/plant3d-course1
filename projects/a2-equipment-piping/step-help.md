@@ -27,7 +27,7 @@ Common to every step: set size, spec `10HC01` and line number before clicking Ro
 - Check: line numbers; no open nodes; the loop is furnaces → header → pumps → `E-101` → furnaces; nothing across the middle of the floor at low level.
 
 ## Step 6 — DN80 supply, return and bypass
-- **Unresolved:** the notes do not settle where the DN80 pair starts. The Week 9 sketch has the 80 lines leaving the heat exchanger (N2/N3); the approved assumption has the supply at the north header end and the return at the south end. Safest: start from `E-101` N2/N3; if the brief ties them to the header ends, add a short stub tee at each header end. Label the choice and keep it consistent.
+- **Resolved (2026-11-24, inferred):** `E-101` has four nozzles; the primary loop uses two (pump discharge in, outlet to the furnaces), so the two `80` nozzles N2 and N3 are the supply and return. The Week 9 sketch also has the 80 lines leaving the heat exchanger. Supply from N3 (west, nearest the exit); return into N2 (east). No DN80 line connects to the header; the header's blank flanges stay at both extreme ends.
 - Lines `DN80`, `10HC01`, blue, separate line numbers: up to `EL 3700` (up-arrow grip, BOP/COP/TOP, type the value), west along the north wall as a grouped pair, out through the north wall west side, flange at the grid boundary (`Y = 12000`). Prefer Z-bends. Keep clear of the stair landing and ladder.
 - Bypass: simple tee on each line (no 3-way valve), `DN80` bypass between them with a double-regulating valve, ball isolating valves and flanges at the tee outlets. Supply: isolating ball valves before and after the bypass position. Return: double-regulating valve before the bypass intersection.
 - Check: line numbers; flanged ends at the boundary; `EL 3700`; valves tagged.

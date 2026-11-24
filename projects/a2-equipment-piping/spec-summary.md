@@ -123,7 +123,7 @@ Deadline: the brief says "END Week 9"; the Week 9 notes say the academic planner
 ## 13. Consistency check (2026-11-24)
 
 Likely model problems:
-1. **Header ends:** blank flanges at both ends, but the `80` supply and return connect at opposite header ends. Confirm where the DN80 lines tee off relative to the blanks.
+1. **Header ends:** the brief wording ties the `80` supply and return to the header ends, but the nozzle count and the Week 9 sketch put them on `E-101` N2/N3. Resolved 2026-11-24: N3 supply, N2 return, no DN80 line on the header, blanks at both extreme ends. Residual risk: if the brief literally tees the DN80 lines off the header, a marker could read it differently; the check list does not test this.
 2. **Pump sizes:** datasheet 6" / 4" is DN150 / DN100, not DN100 / DN80 (size difference, not only ANSI vs PN10). Text and Week 9 notes say DN100 / DN80 at PN10; the lecturer flagged the pump "100%?". Note the DN150 suction matches the header size.
 3. **Stairs vs east run:** stairs on the east side (north–south) share the east wall with the lecturer's main pipe pair. Check clearances.
 4. **Ladder vs west run:** ladder on the west wall toward the south end shares the wall with the west pipe pair past the pumps. Check clearances.
@@ -164,7 +164,7 @@ Source: the Applied Notes in the course Drive folder (secondhand summaries; the 
 | `E-101` nozzles | DN100 pair N1/N4 = furnace loop; DN80 pair N2/N3 = blue supply/return exiting at `EL 3700`; pump discharge DN80 enters N4 via an 80×100 reducer; N1 feeds the furnaces | Sizes pair naturally; matches the lecturer's sketch |
 | Pump discharge to `E-101` | DN80 `10HC01`; non-return plus isolating valve per pump; common line into N4 | Standard pump practice; extra valves allowed |
 | Pump drains | DN25 ball valve at the low point of each suction branch, tied into the common DN25 line to grade at `EL 200` | Brief names the DN25 drain; low-point rule |
-| Header ends | Supply at the north end, return at the south end, grouped on the west wall; blank flanges at the extreme ends with the DN80 tee-offs on short stubs inside them | North end nearest the exit; satisfies "blanks at both ends" |
+| Header ends / DN80 start | **Resolved:** supply from `E-101` N3 (west), return into N2 (east); no DN80 line connects to the header; blank flanges at both extreme header ends | `E-101` has four nozzles: the primary loop uses N1 and N4, so the two `80` nozzles N2/N3 are the supply/return; the Week 9 sketch has the 80 lines leaving the heat exchanger |
 | Flow meter | Inline DN100 flanged meter on the common line where the furnace lines merge, before the header | Only place one meter covers both furnaces |
 | Bypass | DN80 `10HC01`; ball isolating valves at the tee outlets; double-regulating valve in the bypass | Matches the lines it bridges |
 | Pump branches | Reducing tee or stub-in 150×100 off the header, falling to the pump | Weeks 6–7 rules |
@@ -172,7 +172,7 @@ Source: the Applied Notes in the course Drive folder (secondhand summaries; the 
 | Orientation | Model +X east, +Y north; the sketch's "north left" is page rotation only | Relative layout is what matters |
 | Description | Follow the brief literally (`A1 Surname FirstName`) | Template leftover; nothing hinges on it |
 
-Still to confirm with the lecturer: header tee-offs and supply/return ends, pump discharge pipework, ladder position, deadline and upload location.
+Still to confirm with the lecturer: pump discharge pipework, deadline and late terms, upload location.
 
 ### C. Further decisions (approved 2026-11-24)
 - **Ladder:** on the west wall near the south end, outside the footprint, not at the exact corner. This satisfies both the brief text and the Week 5 suggested plan.

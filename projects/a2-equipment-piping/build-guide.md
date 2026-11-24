@@ -63,8 +63,8 @@ A2 is late. Submit as soon as the checks in step 10 pass, and tell the lecturer.
 9. Fix mistakes with grips (up arrow = elevation, square blue = move, + = continue, down arrow = Substitute Part), not by deleting.
 
 ## Step 7 — DN80 supply, return and bypass
-1. `80` supply: from the north end of the header (via `E-101` N2/N3 circuit as modelled); `80` return to the south end. Grouped on the west wall, exiting the north wall, west side, at `EL 3700`, flange at the grid boundary. Blue.
-2. Blank flanges at the extreme header ends; the DN80 tee-offs sit on short stubs inside them.
+1. `80` supply: from `E-101` N3 (west, nearest the exit) up to `EL 3700`; `80` return into N2 (east). Both from the grouped pair along the north wall, out through the north wall, west side, flange at the grid boundary. Blue. (Resolved by counting `E-101` nozzles: the primary loop uses N1 and N4, so N2/N3 are the supply and return.)
+2. No DN80 line connects to the header. Blank flanges stay at both extreme header ends.
 3. Bypass: `DN80` `10HC01` between supply and return. No 3-way valve: a simple tee at each end, ball isolating valves at the tee outlets, flanges, and a double-regulating valve in the bypass itself.
 4. Isolating ball valves before and after the bypass position on the supply. Double-regulating valve on the return before the bypass intersection.
 

@@ -43,7 +43,7 @@ Source: the `<TBC>` items in `spec-summary.md`.
 
 ## Ladder position
 26. Earlier notes said "south-west corner", but the brief says the west wall toward the south end, not at the corner. Can you confirm the brief governs?
-27. The header has blank flanges at both ends, but the `80` supply and return connect at opposite header ends. Where do the DN80 lines tee off relative to the blanks?
+27. The header has blank flanges at both ends, but the `80` supply and return connect at opposite header ends. Where do the DN80 lines tee off relative to the blanks? *(Resolved 2026-11-24 by inference: the DN80 pair starts at `E-101` N3 supply and N2 return; no DN80 line on the header.)*
 28. The pump datasheet's 6" suction and 4" discharge are DN150 and DN100, not DN100 and DN80. Is the datasheet or the text correct for the pump nozzles?
 29. Should I add reducers where the DN100 lines meet the DN80 furnace nozzles and the DN150 header? The brief doesn't mention them.
 30. If I use a simple tee instead of the 3-way valve, where exactly is the "3-way position" for the isolating ball valves?
@@ -55,6 +55,6 @@ The inferred answers (I) were reviewed and approved by the student on 2026-11-24
 Details are in `spec-summary.md` section 14. A = answered by the Week 5–9 notes; I = inferred, not confirmed.
 
 - A: 5 (text governs: suction 100, discharge 80, PN10), 10 (N3/N4 match the brief), 11 (800 between baseplates), 12 (PN10, DIN 2632, FL on all nozzles), 15 (header at X = 300, west side, `EL 520` in the model), 21 (steel settings), 23 (2200 BOP; Z-bends), 24 and 25 (tag formats), 30 (simple tee at both bypass ends).
-- I: 2 and 3 (A4 landscape, 5%/day), 4 (follow the brief literally), 6 (+X east, +Y north), 7, 8 (`EL 1200` = outlet), 9, 13 (`10HC01`), 14 and 27 (supply north end, return south end, blanks outside the tee-offs), 16, 17, 18, 19, 20, 22, 29 (add reducers).
+- I: 2 and 3 (A4 landscape, 5%/day), 4 (follow the brief literally), 6 (+X east, +Y north), 7, 8 (`EL 1200` = outlet), 9, 13 (`10HC01`), 14 and 27 (DN80 supply from `E-101` N3, return into N2; no DN80 on the header; blanks at both extreme ends), 16, 17, 18, 19, 20, 22, 29 (add reducers).
 - Decided 2026-11-24: 1 (deadline passed; submitting late), 2 (upload through Canvas; zip named `A2 Surname Firstname.zip`), 26 (ladder on the west wall near the south end, outside the footprint, not at the corner), 28 (text governs, same as 5), 10 (E-101 nozzles N1–N4 all point up).
 - Still open: none that block the build. Only the lecturer can give the late-submission terms.
