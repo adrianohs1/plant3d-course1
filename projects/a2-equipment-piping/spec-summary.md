@@ -140,6 +140,8 @@ Checked and consistent: `E-101` (4 m) fits the 9 m north wall; furnaces plus the
 
 ## 14. Answers from the Week 5–9 notes and design assumptions (2026-11-24)
 
+**Status:** the assumptions in part B and the additions in part C were reviewed and approved by the student on 2026-11-24. They are design decisions now, not open questions. A2 is late (the deadline has passed); late-submission terms are for the lecturer.
+
 Source: the Applied Notes in the course Drive folder (secondhand summaries; the A2 brief itself is not in Drive).
 
 ### A. From the notes
@@ -171,3 +173,10 @@ Source: the Applied Notes in the course Drive folder (secondhand summaries; the 
 | Description | Follow the brief literally (`A1 Surname FirstName`) | Template leftover; nothing hinges on it |
 
 Still to confirm with the lecturer: header tee-offs and supply/return ends, pump discharge pipework, ladder position, deadline and upload location.
+
+### C. Further decisions (approved 2026-11-24)
+- **Ladder:** on the west wall near the south end, outside the footprint, not at the exact corner. This satisfies both the brief text and the Week 5 suggested plan.
+- **`E-101` nozzle directions:** all four (N1–N4) point up.
+- **Pump datasheet:** the brief text governs (suction `100`, discharge `80`, `PN10`); the datasheet's 6"/4" is ignored.
+- **Upload and zip:** upload through Canvas, as for A1; name the zip like the project folder (`A2 Surname Firstname.zip`).
+- **Deadline:** passed; A2 is being submitted late.

@@ -50,8 +50,11 @@ Source: the `<TBC>` items in `spec-summary.md`.
 
 ## Answers and assumptions (2026-11-24)
 
+The inferred answers (I) were reviewed and approved by the student on 2026-11-24 and are now design decisions. A2 is late; the deadline has passed.
+
 Details are in `spec-summary.md` section 14. A = answered by the Week 5–9 notes; I = inferred, not confirmed.
 
 - A: 5 (text governs: suction 100, discharge 80, PN10), 10 (N3/N4 match the brief), 11 (800 between baseplates), 12 (PN10, DIN 2632, FL on all nozzles), 15 (header at X = 300, west side, `EL 520` in the model), 21 (steel settings), 23 (2200 BOP; Z-bends), 24 and 25 (tag formats), 30 (simple tee at both bypass ends).
 - I: 2 and 3 (A4 landscape, 5%/day), 4 (follow the brief literally), 6 (+X east, +Y north), 7, 8 (`EL 1200` = outlet), 9, 13 (`10HC01`), 14 and 27 (supply north end, return south end, blanks outside the tee-offs), 16, 17, 18, 19, 20, 22, 29 (add reducers).
-- Still open: 1 (deadline), 2 (upload location), 26 (ladder position: SW corner in Week 5 notes vs west wall in the brief text).
+- Decided 2026-11-24: 1 (deadline passed; submitting late), 2 (upload through Canvas; zip named `A2 Surname Firstname.zip`), 26 (ladder on the west wall near the south end, outside the footprint, not at the corner), 28 (text governs, same as 5), 10 (E-101 nozzles N1–N4 all point up).
+- Still open: none that block the build. Only the lecturer can give the late-submission terms.
