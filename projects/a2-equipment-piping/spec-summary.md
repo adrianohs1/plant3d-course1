@@ -12,6 +12,7 @@
 
 - Origin `0,0,0`; X `0, 9000` (east/west); Y `0, 12000` (north/south); Z `0, 5000, 10000`
 - `<TBC>` which end of X is east; that +Y is north (plan view: N up, stairs on the right/east)
+- Week 9: the lecturer's routing sketch is drawn over the A2 plan view with **north to the left** (heat exchanger on the north wall, furnaces at the south end). This conflicts with the "N up" note above, so confirm the plan-view orientation.
 
 ## 3. Equipment & layout
 
@@ -48,6 +49,8 @@ Also `<TBC>`: furnace outlet vs return nozzle; `E-101` nozzle directions and cir
 | Bypass (supply → return) | `<TBC>` | Double-reg valve; 3-way valve omitted — simple tee at each end, valves and flanges at tee outlets |
 | HX outlet → furnaces | `100`, `PN10` | Double-reg valve to each furnace; isolating butterfly valve at each furnace return |
 
+Week 9: the `10HS01` palette has a 3-way temperature valve (`FL`, class 10); the brief allows a simple tee instead, so either is acceptable. Swap the operator (hand lever or handwheel) from the valve's Properties. Valve tags come from the P&ID number (e.g. `HA-1xx`).
+
 `<TBC>`: which header end is supply/return; spec of all lines except header and furnace-to-pump pipework; "common line" location; flow meter type/size; valve type at tee outlets; branch spec to pumps.
 **Not in the brief:** pump discharge pipework to `E-101` (size, spec, check/isolation valves, nozzle).
 
@@ -77,13 +80,15 @@ Also `<TBC>`: furnace outlet vs return nozzle; `E-101` nozzle directions and cir
 - Brief gives no headroom, clearance, slope or support-spacing values (`<TBC>`)
 - Brief routing rules: `80` lines exit north wall west side at `EL 3700` with flanges at grid boundary; header 300 from side wall at pump suction level
 - Check list: head heights, trip hazards, piping grouped together, supports, drains, extra valves if required
+- **Week 9 routing target (lecturer's sketch):** main lines (red and yellow) run as pairs around the edge of the room, not diagonally: one pair along the east side between `E-101` and the furnaces, another along the west side past the pumps. Pipes loop down to the pumps and enter each furnace from the side. The `80` lines (blue) leave `E-101` through the north-west corner (item 3.7: north wall, west side, `EL 3700`). No pipe crosses the middle of the floor at low level; floor-level runs stay against walls or equipment; anything crossing a walkway is at `2200` BOP or higher. Add at least a few supports in grouped runs (Week 8 method).
 - **Course guidance (not in brief):** Week 7 tutorial — `2100` minimum clearance, `2200` BOP over a beam (this repo's README uses `>= 2200 mm` BOP over walkways)
 
 ## 9. Tagging
 
 - Stated: `F-101`, `F-102`, `P-301`, `P-302`
 - Check list requires line numbers and equipment tags
-- `<TBC>`: `E-101` tag (A1 P&ID uses `E-101`), valve tags (`HA-1xx`), line number format (lecturer's sample uses `Size-Spec-Service-Number`)
+- Week 9: the lecturer's notes list `F-101`, `F-102`, `P-301`, `P-302` and `E-101` as the equipment tags, and valve tags take the P&ID number (e.g. `HA-1xx`)
+- `<TBC>`: line number format (lecturer's sample uses `Size-Spec-Service-Number`)
 
 ## 10. Deliverables & submission
 
@@ -97,7 +102,7 @@ Also `<TBC>`: furnace outlet vs return nozzle; `E-101` nozzle directions and cir
 - [ ] Equipment, line and valve tags complete — no `?` placeholders
 - [ ] Supports added
 
-`<TBC>`: deadline (brief says only "END Week 9"), upload location, zip file name, paper size, whether the printout is uploaded (PDF?), late penalty (A1 was 5% per day). Isometrics and orthographic drawings are **not** required for A2.
+Deadline: the brief says "END Week 9"; the Week 9 notes say the academic planner marks A2 at the weekend of 22 November, so if it isn't submitted, contact the lecturer about late submission now. `<TBC>`: upload location, zip file name, paper size, whether the printout is uploaded (PDF?), late penalty (A1 was 5% per day). Isometrics and orthographic drawings are **not** required for A2.
 
 ## 11. Conflicts to confirm
 
@@ -105,3 +110,12 @@ Also `<TBC>`: furnace outlet vs return nozzle; `E-101` nozzle directions and cir
 - Which `E-101` nozzles serve the `80` supply/return circuits and the `100` return to furnaces is not stated.
 - Description for this A2 drawing reads `A1 Surname FirstName`.
 - Ladder position: earlier notes said "south-west corner"; the brief says west wall toward the south end, not at the corner.
+
+## 12. Lecturer's check list (Week 9 notes)
+
+| Area | He checks |
+|------|-----------|
+| General | Full name and student number on the assignment; overall layout matches the brief |
+| Steel | Handrails; levels match the grid elevations |
+| Equipment | Pump modelled correctly (he highlighted "100%?": suction `100` PN10, discharge `80` PN10, DIN, mm; recheck `P-301` and `P-302`); all equipment modelled; plinths under pumps and furnaces; equipment tags |
+| Piping | Valves (add more if needed); drains allowed for; head heights; trip hazards; piping grouped together; supports |
