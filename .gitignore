@@ -11,8 +11,10 @@
 *.dwl2
 
 # Directories
-exports/
-cad-local/
+exports/*
+cad-local/*
+!projects/**/exports/.gitkeep
+!projects/**/cad-local/.gitkeep
 
 # Media / office files
 *.pdf
