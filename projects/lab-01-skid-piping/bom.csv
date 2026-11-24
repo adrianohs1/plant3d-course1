@@ -1,0 +1,4 @@
+Category,Tag_or_Line,Description,Size_mm,Spec,Qty,Unit,Notes
+Equipment,P-101,Centrifugal pump,100,10HS01,1,ea,Suction 100 / discharge 80; PN10 FL DIN 2632
+Valve,HA-101,Isolation valve,100,10HS01,1,ea,Flanged PN10
+Pipe,100-10HS01-PW-1001,Process water pipe,100,10HS01,12.5,m,Sample length

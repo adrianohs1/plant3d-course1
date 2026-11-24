@@ -1,0 +1,40 @@
+# Live CAD & Plant 3D files
+*.dwg
+*.bak
+*.dxf
+*.dcf
+*.pspx
+*.pspc
+*.pcat
+*.xml
+*.dwl
+*.dwl2
+
+# Directories
+exports/
+cad-local/
+
+# Media / office files
+*.pdf
+*.xlsx
+*.xls
+*.csv
+!projects/**/bom.csv
+*.png
+*.jpg
+*.jpeg
+*.pptx
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

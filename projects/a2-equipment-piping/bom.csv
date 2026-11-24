@@ -1,0 +1,9 @@
+Category,Tag_or_Line,Description,Size_mm,Spec,Qty,Unit,Notes
+Equipment,F-101,Furnace,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
+Equipment,F-102,Furnace,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
+Equipment,E-101,Heat exchanger,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
+Equipment,P-301,Pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; placeholder
+Equipment,P-302,Pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; placeholder
+Valve,HA-1xx,Valve (tags TBC),<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
+Pipe,<LINE-TAG>,Line (80 - blue),80,<TBC>,0.0,m,Exits north wall west side at EL 3700; placeholder
+Pipe,<LINE-TAG>,Common drain,25,<TBC>,0.0,m,DN25 to EL 200; placeholder

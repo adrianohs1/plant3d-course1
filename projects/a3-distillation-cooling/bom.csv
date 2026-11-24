@@ -1,0 +1,4 @@
+Category,Tag_or_Line,Description,Size_mm,Spec,Qty,Unit,Notes
+Pipe,<LINE-TAG>,Feed line,100,<TBC>,0.0,m,DN100; 30 mm insulation; placeholder until export
+Pipe,<LINE-TAG>,Line to condenser,80,<TBC>,0.0,m,DN80; 30 mm insulation; placeholder until export
+Pipe,<LINE-TAG>,Product line,50,<TBC>,0.0,m,DN50; 30 mm insulation; placeholder until export
