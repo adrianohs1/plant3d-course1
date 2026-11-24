@@ -2,6 +2,8 @@
 
 **Status:** DRAFT — anything unconfirmed is `<TBC>`.
 
+**Due:** Week 12 (Week 9 Applied Notes). **Supplied drawings:** steel and equipment drawings are on Canvas; modify them and run all P&ID lines as 3D pipe. The P&ID itself is not yet in this repo or Drive, so tags and line lists stay `<TBC>`.
+
 ## Project naming
 
 - Project name: `A3 Surname First Name`
