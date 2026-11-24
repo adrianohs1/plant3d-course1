@@ -18,6 +18,8 @@ Decision 2026-11-24: keep working in `TC 3D Layout.dwg`; do not start over. Equi
 
 Orbit once after `A2PLINTH`: the box should be 150 high with both furnaces sitting on it. Save, close and reopen the drawing after both.
 
+Optional, for steps 4–7: load `scripts/lisp/a2_guides.lsp` and run `A2GUIDES`. It draws coloured guide lines (not pipes) along every route below; route the real pipe in Plant 3D by snapping to their corners, snap to the real nozzle where a guide end differs, and run `A2GUIDEDEL` before submitting. The pump and furnace-return nozzle positions in it are assumed (listed in its header).
+
 ## 2. Equipment read-back (pencil on each nozzle)
 
 | Item | Where in the model | Set |
