@@ -184,6 +184,6 @@ Still to confirm with the lecturer: pump discharge pipework, deadline and late t
 ## 15. Model as built (review 2026-11-24)
 
 From `model-review-2026-11-24.md`. These differ from the plan above but are acceptable:
-- Furnace nozzles are on the north face, not facing the west header. Route the furnace lines north out of the furnaces, then west along the wall to the header.
+- Furnace nozzles are on the north face, not facing the west header. Route the furnace lines north out of the furnaces, up to `EL 2300` (BOP ≥ 2200), west overhead and down the west wall into the header (accepted 2026-11-24; `next-steps-2026-11-24.md` §3).
 - `E-101` is centred at X = 3500, not 4500. Keep it; the brief only says "against the north wall".
 - Reducers are needed wherever a DN100 line meets a DN80 furnace nozzle (100×80 at all four furnace nozzles), plus 150×100 at the pump branches and 80×100 into `E-101` N4.

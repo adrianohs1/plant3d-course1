@@ -17,7 +17,7 @@ Common to every step: set size, spec `10HC01` and line number before clicking Ro
 
 ## Step 4 — Header and furnace lines
 - Header `DN150`, `10HC01`, X = 300, 4000 long, centreline at pump suction level (`EL 520` in the working model; proposed Y span 5000–9000 if the model has none). Blank flange at each extreme end (part name not in the notes; pick from the 10HC01 flanges).
-- Furnace lines `DN100`, `10HC01`: 100×80 reducer at each `EL 1200` outlet, then north out of the furnace and west along the wall to the header; never across the middle of the room at `EL 1200`. If a drop misses X = 300, drag the end grip or use Move Part, then stub in with `ST`. Merge into a common line before the header; inline DN100 flanged flow meter there (nearest catalog part, labelled). Butterfly shut-off valve (hand lever) at each furnace exit; hover on the pipe until it snaps, then click.
+- Furnace lines `DN100`, `10HC01`: 100×80 reducer at each `EL 1200` outlet, then north out of the furnace to Y 2600, up to `EL 2300` (BOP ≥ 2200), west overhead to the west wall (X 283), north to Y 5200 and down into the top of the header; never across the room at `EL 1200`. Vent at the high point. Full route: `next-steps-2026-11-24.md` §3. If a drop misses X = 300, drag the end grip or use Move Part, then stub in with `ST`. Merge into a common line before the header; inline DN100 flanged flow meter there (nearest catalog part, labelled). Butterfly shut-off valve (hand lever) at each furnace exit; hover on the pipe until it snaps, then click.
 - Check: line numbers show in Properties; no open nodes; header elevations right; Z-bends, not long straight runs.
 
 ## Step 5 — Pump branches, discharge, `E-101` outlet

@@ -27,9 +27,9 @@ Orbit once after `A2PLINTH`: the box should be 150 high with both furnaces sitti
 | `E-101` | X 1500–5500, centre Y 11200, centreline `EL 1200` | N1–N4 all pointing **up** (one points sideways now). N1 X 5100, N2 X 4825, N3 X 2175, N4 X 1900 |
 | `P-301`, `P-302` | X 1590–3159, centres Y 7219 and 8400 | Suction `100`, discharge `80`, mm, FL, class 10, DIN 2632. **Check which end is the suction:** it must face the header (west). If the suction is at the east end, rotate both pumps 180° before step 5 |
 
-## 3. Furnace lines (proposal; changes the written plan)
+## 3. Furnace lines (proposal, accepted 2026-11-24)
 
-`DN100`, `10HC01`, one line number per furnace line plus one for the common line. **This changes step 4 of `step-help.md` and `late-fast-track.md`**, which say "along the wall, not across the room". With the nozzles on the north face, any route to the west header must cross the south part of the room; the old line did it at `EL 1200` (head-height hazard). This route crosses overhead instead, at ≥ 2200 BOP (centreline `EL 2300`, BOP ≈ 2243). If you accept it, those two files get updated to match.
+`DN100`, `10HC01`, one line number per furnace line plus one for the common line. This replaces the earlier "along the wall, not across the room" wording in step 4 of `step-help.md` and `late-fast-track.md` (updated to match). With the nozzles on the north face, any route to the west header must cross the south part of the room; the old line did it at `EL 1200` (head-height hazard). This route crosses overhead instead, at ≥ 2200 BOP (centreline `EL 2300`, BOP ≈ 2243).
 
 1. At each `EL 1200` outlet: 100×80 reducer, then the butterfly shut-off valve (hand lever).
 2. North to Y 2600, then up to `EL 2300`.
