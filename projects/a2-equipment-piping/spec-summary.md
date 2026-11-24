@@ -119,3 +119,21 @@ Deadline: the brief says "END Week 9"; the Week 9 notes say the academic planner
 | Steel | Handrails; levels match the grid elevations |
 | Equipment | Pump modelled correctly (he highlighted "100%?": suction `100` PN10, discharge `80` PN10, DIN, mm; recheck `P-301` and `P-302`); all equipment modelled; plinths under pumps and furnaces; equipment tags |
 | Piping | Valves (add more if needed); drains allowed for; head heights; trip hazards; piping grouped together; supports |
+
+## 13. Consistency check (2026-11-24)
+
+Likely model problems:
+1. **Header ends:** blank flanges at both ends, but the `80` supply and return connect at opposite header ends. Confirm where the DN80 lines tee off relative to the blanks.
+2. **Pump sizes:** datasheet 6" / 4" is DN150 / DN100, not DN100 / DN80 (size difference, not only ANSI vs PN10). Text and Week 9 notes say DN100 / DN80 at PN10; the lecturer flagged the pump "100%?". Note the DN150 suction matches the header size.
+3. **Stairs vs east run:** stairs on the east side (north–south) share the east wall with the lecturer's main pipe pair. Check clearances.
+4. **Ladder vs west run:** ladder on the west wall toward the south end shares the wall with the west pipe pair past the pumps. Check clearances.
+5. **Reducers:** DN100 lines meet DN80 furnace nozzles and a DN150 header; the brief gives no reducers, so add them.
+
+Wording and dates:
+6. Plan orientation: north up (spec) vs north to the left (Week 9 sketch).
+7. Three deadline sources: "Mid Week 9" (brief file name), "END Week 9" (brief), weekend of 22 November (planner).
+8. `A1` appears in the folder name `A1 A2 Surname Firstname` and the drawing description `A1 Surname FirstName`; likely a copy-paste leftover.
+9. "Before and after the 3-way position" is ambiguous if a simple tee is used instead of a 3-way valve.
+10. The header is called the LPHW return yet sits between furnaces and pumps; pump discharge to `E-101` is not given.
+
+Checked and consistent: `E-101` (4 m) fits the 9 m north wall; furnaces plus the 1000 gap total 4 m; the ladder position agrees across the spec, checklist and brief.

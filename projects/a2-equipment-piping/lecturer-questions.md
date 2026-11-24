@@ -43,3 +43,7 @@ Source: the `<TBC>` items in `spec-summary.md`.
 
 ## Ladder position
 26. Earlier notes said "south-west corner", but the brief says the west wall toward the south end, not at the corner. Can you confirm the brief governs?
+27. The header has blank flanges at both ends, but the `80` supply and return connect at opposite header ends. Where do the DN80 lines tee off relative to the blanks?
+28. The pump datasheet's 6" suction and 4" discharge are DN150 and DN100, not DN100 and DN80. Is the datasheet or the text correct for the pump nozzles?
+29. Should I add reducers where the DN100 lines meet the DN80 furnace nozzles and the DN150 header? The brief doesn't mention them.
+30. If I use a simple tee instead of the 3-way valve, where exactly is the "3-way position" for the isolating ball valves?
