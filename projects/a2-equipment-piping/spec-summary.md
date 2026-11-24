@@ -137,3 +137,37 @@ Wording and dates:
 10. The header is called the LPHW return yet sits between furnaces and pumps; pump discharge to `E-101` is not given.
 
 Checked and consistent: `E-101` (4 m) fits the 9 m north wall; furnaces plus the 1000 gap total 4 m; the ladder position agrees across the spec, checklist and brief.
+
+## 14. Answers from the Week 5–9 notes and design assumptions (2026-11-24)
+
+Source: the Applied Notes in the course Drive folder (secondhand summaries; the A2 brief itself is not in Drive).
+
+### A. From the notes
+- **Nozzles:** all nozzles mm, Pressure Class 10, DIN 2632, `FL` (furnaces, `E-101` N1–N4, pumps). Pumps: suction `100`, discharge `80` (brief page 4); the datasheet's 6"/4" does not govern. `P-301`/`P-302`: 1181 centre to centre, 381 base, so the 800 gap is between baseplates.
+- **Header:** at X = 300 (west side); centreline `EL 520` in the working model.
+- **Steel:** platforms 5000 and 10000; stairs width 800, tread 250, stringer U-200; ladder cage on, start height 2800, max distance 1500, cage radius 350, stand-off 200; extra grid lines 1000 in from the ends for the stairs; plate/grate ASTM, justification Bottom; DIN members. Keep the stair landing and ladder clear of the `EL 3700` run on the north wall.
+- **Headroom:** 2100 clearance + 100 beam = `2200` BOP; `EL 1200` runs must not cross a walkway; use Z-bends for thermal expansion; pump suction falls from the header with no pockets.
+- **Bypass:** per the Week 6 notes the brief omits the 3-way valve: simple tee at both ends, valves and flanges at the tee outlets.
+- **Tags:** line tags `size-spec-service-number` (e.g. `150-10HS01-BFWS-1001`), valve tags `HA-1xx` with the size beside each valve; use the same line tag format in 3D.
+- **Ladder conflict (unresolved):** Week 5 notes put the ladder at the south-west corner (brief page 5 suggested plan); the brief text is read as west wall toward the south end, not at the corner.
+
+### B. Assumptions (inferred, not confirmed by the lecturer)
+| Item | Assumption | Reason |
+|------|------------|--------|
+| Furnace nozzles | `EL 1200` = outlet to header; `EL 700` = return inlet | Week 7 runs the `F-102` `EL 1200` line west to the header; hot outlets sit high |
+| Line spec | `10HC01` on all water lines; `10HS01` only for a part the HC spec lacks | Week 7: set spec before routing |
+| Printout / upload | A4 landscape, final page only; zip named like the folder; late penalty 5%/day as A1 | Check list; A1 rule |
+| Furnaces | On the 150 plinth, base `EL 150`, nozzle face toward the west header, gap measured face to face | Keeps the 1000 gap meaningful; header is west |
+| `E-101` | Centred on the north wall (X = 4500), two saddles near the quarter points on 150 plinths | 4 m shell on a 9 m wall |
+| `E-101` nozzles | DN100 pair N1/N4 = furnace loop; DN80 pair N2/N3 = blue supply/return exiting at `EL 3700`; pump discharge DN80 enters N4 via an 80×100 reducer; N1 feeds the furnaces | Sizes pair naturally; matches the lecturer's sketch |
+| Pump discharge to `E-101` | DN80 `10HC01`; non-return plus isolating valve per pump; common line into N4 | Standard pump practice; extra valves allowed |
+| Pump drains | DN25 ball valve at the low point of each suction branch, tied into the common DN25 line to grade at `EL 200` | Brief names the DN25 drain; low-point rule |
+| Header ends | Supply at the north end, return at the south end, grouped on the west wall; blank flanges at the extreme ends with the DN80 tee-offs on short stubs inside them | North end nearest the exit; satisfies "blanks at both ends" |
+| Flow meter | Inline DN100 flanged meter on the common line where the furnace lines merge, before the header | Only place one meter covers both furnaces |
+| Bypass | DN80 `10HC01`; ball isolating valves at the tee outlets; double-regulating valve in the bypass | Matches the lines it bridges |
+| Pump branches | Reducing tee or stub-in 150×100 off the header, falling to the pump | Weeks 6–7 rules |
+| Ladder and steel | Ladder serves LVL 1 (`5000`) with a cage; grating over the footprint with stair/ladder openings; DIN IPE/HEA; footings under every column | Tutorial settings |
+| Orientation | Model +X east, +Y north; the sketch's "north left" is page rotation only | Relative layout is what matters |
+| Description | Follow the brief literally (`A1 Surname FirstName`) | Template leftover; nothing hinges on it |
+
+Still to confirm with the lecturer: header tee-offs and supply/return ends, pump discharge pipework, ladder position, deadline and upload location.

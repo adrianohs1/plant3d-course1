@@ -47,3 +47,11 @@ Source: the `<TBC>` items in `spec-summary.md`.
 28. The pump datasheet's 6" suction and 4" discharge are DN150 and DN100, not DN100 and DN80. Is the datasheet or the text correct for the pump nozzles?
 29. Should I add reducers where the DN100 lines meet the DN80 furnace nozzles and the DN150 header? The brief doesn't mention them.
 30. If I use a simple tee instead of the 3-way valve, where exactly is the "3-way position" for the isolating ball valves?
+
+## Answers and assumptions (2026-11-24)
+
+Details are in `spec-summary.md` section 14. A = answered by the Week 5–9 notes; I = inferred, not confirmed.
+
+- A: 5 (text governs: suction 100, discharge 80, PN10), 10 (N3/N4 match the brief), 11 (800 between baseplates), 12 (PN10, DIN 2632, FL on all nozzles), 15 (header at X = 300, west side, `EL 520` in the model), 21 (steel settings), 23 (2200 BOP; Z-bends), 24 and 25 (tag formats), 30 (simple tee at both bypass ends).
+- I: 2 and 3 (A4 landscape, 5%/day), 4 (follow the brief literally), 6 (+X east, +Y north), 7, 8 (`EL 1200` = outlet), 9, 13 (`10HC01`), 14 and 27 (supply north end, return south end, blanks outside the tee-offs), 16, 17, 18, 19, 20, 22, 29 (add reducers).
+- Still open: 1 (deadline), 2 (upload location), 26 (ladder position: SW corner in Week 5 notes vs west wall in the brief text).
