@@ -11,19 +11,19 @@ Common to every step: set size, spec `10HC01` and line number before clicking Ro
 - Check: read every nozzle value back (the lecturer marked "100%?"); tags show no `?`; each nozzle node (circle with an X) is live.
 
 ## Step 3 — Furnaces and `E-101`
-- Furnaces: Modify Equipment (right-click) D `1000`, W `1500`, H `1500`, Cube. One common `150` plinth about 4000 wide (my `BOX` suggestion), base `EL 150`, gap `1000` face to face. Two `80` nozzles each (mm, FL, class 10, DIN 2632): `EL 1200` = outlet to the header, `EL 700` = return inlet, facing the west header. Delete spare nozzles.
-- `E-101`: shell and tube, `4000` overall, `450`, capped ends, centred on the north wall (X = 4500), centreline `1200`; two saddles near the quarter points on `150` plinths (my suggestion). Nozzles with the pencil: N1 `100` at 400 from the east end; N2 `80` at 675 from the east end; N3 `80` at 675 from the west end; N4 `100` at 400 from the west end; all pointing up.
+- Furnaces: Modify Equipment (right-click) D `1000`, W `1500`, H `1500`, Cube. One common `150` plinth about 4000 wide (my `BOX` suggestion), base `EL 150`, gap `1000` face to face. Two `80` nozzles each (mm, FL, class 10, DIN 2632): `EL 1200` = outlet to the header, `EL 700` = return inlet. Delete spare nozzles. As built (2026-11-24) the nozzles are on the north face; keep them there.
+- `E-101`: shell and tube, `4000` overall, `450`, capped ends, against the north wall (planned X = 4500; as built X = 3500, which is fine), centreline `1200`; two saddles near the quarter points on `150` plinths (my suggestion). Nozzles with the pencil: N1 `100` at 400 from the east end; N2 `80` at 675 from the east end; N3 `80` at 675 from the west end; N4 `100` at 400 from the west end; all pointing up.
 - Check: tags `F-101`, `F-102`, `E-101` with no `?`; every nozzle mm, FL, class 10, DIN 2632; nodes live.
 
 ## Step 4 — Header and furnace lines
 - Header `DN150`, `10HC01`, X = 300, 4000 long, centreline at pump suction level (`EL 520` in the working model; proposed Y span 5000–9000 if the model has none). Blank flange at each extreme end (part name not in the notes; pick from the 10HC01 flanges).
-- Furnace lines `DN100`, `10HC01`: from each `EL 1200` outlet west to the header. If a drop misses X = 300, drag the end grip or use Move Part, then stub in with `ST`. Merge into a common line before the header; inline DN100 flanged flow meter there (nearest catalog part, labelled). Butterfly shut-off valve (hand lever) at each furnace exit; hover on the pipe until it snaps, then click.
+- Furnace lines `DN100`, `10HC01`: 100×80 reducer at each `EL 1200` outlet, then north out of the furnace and west along the wall to the header; never across the middle of the room at `EL 1200`. If a drop misses X = 300, drag the end grip or use Move Part, then stub in with `ST`. Merge into a common line before the header; inline DN100 flanged flow meter there (nearest catalog part, labelled). Butterfly shut-off valve (hand lever) at each furnace exit; hover on the pipe until it snaps, then click.
 - Check: line numbers show in Properties; no open nodes; header elevations right; Z-bends, not long straight runs.
 
 ## Step 5 — Pump branches, discharge, `E-101` outlet
 - Suction branches `DN100`: reducing tee or stub-in 150×100 off the header (`ST`, or the grey + grip on the header). Falling to the pump with no pockets.
 - Discharge `DN80`: non-return valve then isolating valve per pump; common DN80 line to `E-101` N4 via an 80×100 reducer. Rise all the way or add a vent at the high point.
-- `E-101` N1 outlet `DN100`: east side to each furnace `EL 700` return inlet; double-regulating valve to each furnace and an isolating butterfly valve at each furnace return. Tag every valve `HA-1xx`.
+- `E-101` N1 outlet `DN100`: east side to each furnace `EL 700` return inlet, with a 100×80 reducer at each nozzle; double-regulating valve to each furnace and an isolating butterfly valve at each furnace return. Tag every valve `HA-1xx`.
 - Check: line numbers; no open nodes; the loop is furnaces → header → pumps → `E-101` → furnaces; nothing across the middle of the floor at low level.
 
 ## Step 6 — DN80 supply, return and bypass

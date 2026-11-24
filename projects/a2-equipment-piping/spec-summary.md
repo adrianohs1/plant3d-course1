@@ -28,15 +28,15 @@
 | Equipment | Nozzle | Size (mm) | Position | Rating |
 |-----------|--------|-----------|----------|--------|
 | `F-101`, `F-102` | 2 each | 80 | EL 700 and EL 1200 | `PN10`, `FL`, `DIN 2632` |
-| `E-101` | N1 | 100 | 400 from East end | `<TBC>` |
-| `E-101` | N2 | 80 | 675 from East end | `<TBC>` |
-| `E-101` | N3 | 80 | 675 from West end | `<TBC>` |
-| `E-101` | N4 | 100 | 400 from West end | `<TBC>` |
+| `E-101` | N1 | 100 | 400 from East end | `PN10`, `FL`, `DIN 2632` |
+| `E-101` | N2 | 80 | 675 from East end | `PN10`, `FL`, `DIN 2632` |
+| `E-101` | N3 | 80 | 675 from West end | `PN10`, `FL`, `DIN 2632` |
+| `E-101` | N4 | 100 | 400 from West end | `PN10`, `FL`, `DIN 2632` |
 | `P-301`, `P-302` | Suction | 100 | pump | `PN10` flange |
 | `P-301`, `P-302` | Discharge | 80 | pump | `PN10` flange |
-| Header | Both ends | `DN150` | blind flange | `<TBC>` |
+| Header | Both ends | `DN150` | blind flange | `10HC01` (PN10) |
 
-Also `<TBC>`: furnace outlet vs return nozzle; `E-101` nozzle directions and circuits; flange standard for pumps and `E-101`.
+Resolved 2026-11-24 (§14): furnace `EL 1200` = outlet, `EL 700` = return; `E-101` N1–N4 point up; N1/N4 = furnace loop, N2/N3 = DN80 return/supply; every nozzle mm, class 10, DIN 2632, FL.
 
 ## 5. Pipework & valves
 
@@ -180,3 +180,10 @@ Still to confirm with the lecturer: pump discharge pipework, deadline and late t
 - **Pump datasheet:** the brief text governs (suction `100`, discharge `80`, `PN10`); the datasheet's 6"/4" is ignored.
 - **Upload and zip:** upload through Canvas, as for A1; name the zip like the project folder (`A2 Surname Firstname.zip`).
 - **Deadline:** passed; A2 is being submitted late.
+
+## 15. Model as built (review 2026-11-24)
+
+From `model-review-2026-11-24.md`. These differ from the plan above but are acceptable:
+- Furnace nozzles are on the north face, not facing the west header. Route the furnace lines north out of the furnaces, then west along the wall to the header.
+- `E-101` is centred at X = 3500, not 4500. Keep it; the brief only says "against the north wall".
+- Reducers are needed wherever a DN100 line meets a DN80 furnace nozzle (100×80 at all four furnace nozzles), plus 150×100 at the pump branches and 80×100 into `E-101` N4.

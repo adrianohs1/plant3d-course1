@@ -4,7 +4,7 @@ Order of work in Plant 3D, tied to the lecturer's check list (Week 9). Values co
 
 ## 0. Before you start
 - [ ] Contact the lecturer about late submission if A2 is not yet in (planner marked it for the weekend of 22 November).
-- [ ] Ask the open questions in `lecturer-questions.md` that block the build: header supply/return end, pump discharge pipework to `E-101`, flange standard for pumps and `E-101`.
+- [ ] Optional, not blocking: confirm the pump discharge pipework and late terms with the lecturer (`lecturer-questions.md`). Resolved 2026-11-24: DN80 supply from `E-101` N3, return into N2, blank flanges at both header ends; all nozzles class 10, DIN 2632, FL.
 
 ## 1. Project and drawing [General]
 - [ ] Copy the A1 project and rename the folder `A1 A2 Surname Firstname`.
