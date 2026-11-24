@@ -1,9 +1,20 @@
 Category,Tag_or_Line,Description,Size_mm,Spec,Qty,Unit,Notes
-Equipment,F-101,Furnace,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
-Equipment,F-102,Furnace,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
-Equipment,E-101,Heat exchanger,<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
-Equipment,P-301,Pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; placeholder
-Equipment,P-302,Pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; placeholder
-Valve,HA-1xx,Valve (tags TBC),<TBC>,<TBC>,0.0,ea,Placeholder until Data Manager export
-Pipe,<LINE-TAG>,Line (80 - blue),80,<TBC>,0.0,m,Exits north wall west side at EL 3700; placeholder
-Pipe,<LINE-TAG>,Common drain,25,<TBC>,0.0,m,DN25 to EL 200; placeholder
+Equipment,F-101,Plate frame HX used as furnace,1000x1500x1500,<TBC>,0.0,ea,Nozzles 80 at EL 700 and EL 1200; PN10 FL DIN 2632; 150 plinth; placeholder until Data Manager export
+Equipment,F-102,Plate frame HX used as furnace,1000x1500x1500,<TBC>,0.0,ea,Copy of F-101; 1000 gap; common 150 plinth; placeholder until export
+Equipment,E-101,Shell and tube heat exchanger,450,<TBC>,0.0,ea,4000 overall; centreline 1200; nozzles N1-N4 100/80/80/100; placeholder until export
+Equipment,P-301,Centrifugal pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; 150 plinth; placeholder until export
+Equipment,P-302,Centrifugal pump,100/80,<TBC>,0.0,ea,Suction 100 / discharge 80; PN10; 800 gap to P-301; placeholder until export
+Pipe,<LINE-TAG>,Main header (LPHW return),150,10HC01,0.0,m,4000 long; 300 from side wall; blank flange both ends; placeholder until export
+Pipe,<LINE-TAG>,Furnaces to header,100,10HC01,0.0,m,Placeholder until export
+Pipe,<LINE-TAG>,HX outlet to furnaces,100,<TBC>,0.0,m,PN10; placeholder until export
+Pipe,<LINE-TAG>,80 supply (blue),80,<TBC>,0.0,m,Exits north wall west side at EL 3700; placeholder until export
+Pipe,<LINE-TAG>,80 return (blue),80,<TBC>,0.0,m,Exits north wall west side at EL 3700; placeholder until export
+Pipe,<LINE-TAG>,Bypass supply to return,<TBC>,<TBC>,0.0,m,Simple tee at each end; placeholder until export
+Pipe,<LINE-TAG>,Common drain,25,<TBC>,0.0,m,DN25 to EL 200; placeholder until export
+Valve,HA-1xx,Butterfly shut-off valve (hand lever),100,<TBC>,0.0,ea,One at each furnace exit; placeholder until export
+Valve,HA-1xx,Butterfly isolating valve,100,<TBC>,0.0,ea,One at each furnace return; placeholder until export
+Valve,HA-1xx,Double-reg valve,<TBC>,<TBC>,0.0,ea,Bypass; 80 return; HX outlet to each furnace; placeholder until export
+Valve,HA-1xx,Isolating ball valve,80,<TBC>,0.0,ea,Before and after 3-way position on 80 supply; placeholder until export
+Valve,HA-1xx,Drain valve,<TBC>,<TBC>,0.0,ea,One before each pump + common DN25 drain; placeholder until export
+Instrument,<TAG>,Flow meter,<TBC>,<TBC>,0.0,ea,On common line; type/size TBC; placeholder until export
+Fitting,<TAG>,Blank flange,150,<TBC>,0.0,ea,Both header ends; placeholder until export
